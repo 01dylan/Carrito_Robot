@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Abrir plataforma IoT en Edge",
+      "type": "shell",
+      "command": "start \"\" msedge \"${workspaceFolder}\\robot_iot\\index.html\"",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
