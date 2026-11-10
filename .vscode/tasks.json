@@ -5,6 +5,12 @@
       "label": "Abrir plataforma IoT en Edge",
       "type": "shell",
       "command": "start \"\" msedge \"${workspaceFolder}\\robot_iot\\index.html\"",
+      "options": {
+        "shell": {
+          "executable": "C:\\Windows\\System32\\cmd.exe",
+          "args": ["/d", "/c"]
+        }
+      },
       "problemMatcher": [],
       "group": {
         "kind": "build",
